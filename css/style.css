@@ -31,3 +31,7 @@ body {
     background: white;
     margin-bottom: 20px;
 }
+
+.list { display: block; }
+
+.grid { display: flex; justify-content: space-between; flex-wrap: wrap; }
