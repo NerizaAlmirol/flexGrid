@@ -5,12 +5,11 @@ gridBtn.addEventListener('click', clickButton);
 listBtn.addEventListener('click', clickButton);
 
 function clickButton(event) {
-    e.preventDefault();
-    let newStyle = event.target.id;
-    newStyle = newStyle.replace('Btn', '');
+	e.preventDefault();
+	let newStyle = event.target.id;
+	newStyle = newStyle.replace('Btn', '');
+	const element = document.getElementById("card-wrapper");
+  element.classList.remove("grid");
+	element.classList.remove("list");
+	element.classList.add(newStyle);
 }
-
-const element = document.getElementById("card-wrapper");
-element.classList.remove("grid");
-element.classList.remove("list");
-element.classList.add(newStyle);
