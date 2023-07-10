@@ -32,6 +32,12 @@ body {
     margin-bottom: 20px;
 }
 
-.list { display: block; }
+.list {
+    display: block;
+}
 
-.grid { display: flex; justify-content: space-between; flex-wrap: wrap; }
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
